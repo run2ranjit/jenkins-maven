@@ -78,7 +78,7 @@
         </plugins>
     </build>
     
-    <distributionManagement>
+<!--    <distributionManagement>
         <repository>
             <uniqueVersion>false</uniqueVersion>
             <id>Demo1</id>
@@ -86,6 +86,6 @@
             <url>http://52.26.2.15:8080/jenkinsmaven</url>
             <layout>default</layout>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
 </project>
