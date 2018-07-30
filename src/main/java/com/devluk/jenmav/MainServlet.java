@@ -22,7 +22,7 @@ public class MainServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         RequestDispatcher rd=request.getRequestDispatcher("home.jsp");
-        request.setAttribute("msg", "This is jenkins home!");
+        request.setAttribute("msg", "This is jenkins home demo!");
         rd.forward(request, response);
     }
 
