@@ -26,6 +26,14 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+        
+<!--        <dependency>
+         <groupId>redsys</groupId>
+         <artifactId>redsys-api</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${project.basedir}\libs\redsys-api\apiSha256.jar</systemPath>
+      </dependency>-->
     </dependencies>
 
     <build>
@@ -79,7 +87,8 @@
         <finalName>jenkinsmaven</finalName>
     </build>
     
-    <distributionManagement>
+    
+<!--    <distributionManagement>
         <repository>
             <uniqueVersion>false</uniqueVersion>
             <id>Demo1</id>
@@ -87,6 +96,6 @@
             <url>http://localhost:8080/jenkinsmaven</url>
             <layout>default</layout>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
 </project>
